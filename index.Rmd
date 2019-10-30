@@ -1,5 +1,5 @@
 ---
-title: "Blair's Website"
+title: "Blair Wigsten"
 output: 
   html_document:
     toc: true
