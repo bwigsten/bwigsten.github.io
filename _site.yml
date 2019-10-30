@@ -1,9 +1,11 @@
-name: "Yay internet!"
+name: "blairs-website"
 output_dir: "."
 navbar:
-  title: "Home"
+  title: "Blair's Website"
   right:
-    - text: "About"
+    - text: "Home"
+      href: index.html
+    - text: "About Me"
       href: about.html
     - icon: fa-envelope fa-lg
       href: mailto:<bw2595@cumc.columbia.cedu>
