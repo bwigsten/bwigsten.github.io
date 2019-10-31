@@ -36,27 +36,44 @@ plot1
 ```
 
 Column {data-width=350}
+
+Here, we are looking at the distribution of scores, stratified by borough. We see that each borough has about the same median score (14-16), which gives the median restaurant grade of B. This shows that there is not a dramatic difference in the distribution of scores by neighborhood. 
+
 -----------------------------------------------------------------------
 
 ### Chart B
 
 ```{r}
 distribution = rest_inspec %>%
-  select(boro, cuisine_description) %>%
-  filter(cuisine_description %in% c("Pizza", "Seafood", "Italian", "Chinese", "American")) %>%
+  select(boro, cuisine_description, critical_flag) %>%
+  filter(cuisine_description %in% c("Pizza", "Seafood", "Italian", "Chinese", "American"),
+         critical_flag %in% c("Critical", "Not Critical")) %>%
+  group_by(critical_flag) %>%
   count(cuisine_description) %>%
+  group_by(cuisine_description) %>%
+  rename(Number = n,
+         Cuisine_Description = cuisine_description) %>%
   plot_ly(
-    x = ~cuisine_description,
-    y = ~n,
-    color = ~cuisine_description,
-    type = "bar"
-  )
+    x = ~Cuisine_Description,
+    y = ~Number,
+    color = ~critical_flag,
+    type = "bar")
 distribution
 ```
+
+This bar graph looks at my 5 favorite types of food; American, Chinese, Italian, Pizza, and Seafood. This graph shows the numbers of critical and not critical flags on each type of food. To obtain this graph, I excluded critical flag values of "Not Applicable" in order to clearly see the difference in numbers of critical and not critical citations.  
 
 ### Chart C
 
 ```{r}
-
+critical = rest_inspec %>%
+  filter(score != "-1",
+         score != "-2") %>%
+  plot_ly(
+    x = ~score,
+    type = "histogram")
+critical
 ```
+
+This histogram is pretty basic; we are looking at the distribution of scores across all boroughs. The score with the highest number of observations is 12, with 39,368 individual observations. This would give those restaurants a grade of A. The lowest score was 0, which would also yield a grade of A. The highest score was 151, which would give a score of F. 
 
