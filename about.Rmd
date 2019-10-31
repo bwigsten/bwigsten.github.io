@@ -7,4 +7,48 @@ output:
     theme: cerulean
 ---
 
-Hello! I am a second year MPH Student at the Columbia Mailman School of Public Health in the Department of Epidemiology. 
+I am a second year MPH Student at the Columbia Mailman School of Public Health in the Department of Epidemiology. My certificate is in Advanced Epidemiology. You can find my linkedIn page [here](https://www.linkedin.com/in/blair-wigsten-937332111/).
+
+# Educational Background
+
+* Columbia Mailman School of Public Health - Master of Public Health - Expected graduation May 2020
+* State University of New York at Geneseo - Bachelor of Science in Biology, Minor in Mathematics - May 2016
+
+# Work Experience
+
+* BlueWater Vaccines, Inc. - New York, NY (May 2019 - Present)
+
+As an intern, I was responsible for compiling literature reviews and competitive matrices on current approaches to a universal influenza vaccine. I worked closely with the founder of BlueWater, and coordinated meetings between US based company executives and researchers at the University of Oxford in the UK. 
+
+* Animal Health and Diagnostic Center, Cornell University - Ithaca, NY (January 2017 - August 2018)
+
+As a Diagnostic Technologist I in the Virology Department, I conducted and interpreted various virological assays, and reported results to the laboratory Information Management System. Assays included cell culture, HAI, ELISA tests, serum neutralizations, fertilized egg inoculation, and fluorescent antibody testing. 
+
+* Wildlife Rescue and Rehabilitation, Inc. - Kendalia, TX (June 2016 - December 2016)
+
+As an apprentice, I worked with directly with sick, injured, or orphaned wildlife in the hopes of release back into the wild. 
+
+* State University of New York at Geneseo - Geneseo, NY (September 2015 - May 2016)
+
+As a research assistant, I worked closely with a Geneseo faculty member and researcher at SUNY Upstate Medical School, dissecting quail hearts and analyzing trends in development. 
+
+# Activities
+
+* Students for One Health at Columbia University, Events Coordinator
+
+For this organization, I planned social and networking events for club members and Mailman students with an interest in the One Health Mission. 
+
+# Awards and Accomplishments
+
+* Dean's list of SUNY Geneseo (2013, 2016)
+
+* Member of TriBeta National Biological Honor Society (2016)
+
+# Skills and Qualifications
+
+* Software: MS Office, SAS, R Studio
+
+* Certifications: CITI Human Subjects Protection and HIPAA Patient Privacy
+
+
+

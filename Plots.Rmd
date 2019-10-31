@@ -1,0 +1,26 @@
+---
+title: "Plots"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+```{r}
+library(tidyverse)
+library(p8105.datasets)
+library(flexdashboard)
+library(plotly)
+data(rest_inspec)
+rest_inspec
+```
+
+```{r}
+plot1 = rest_inspec %>%
+  filter(cuisine_description == "Italian") %>%
+  select(-action, -camis)
+plot1
+```
+
+
