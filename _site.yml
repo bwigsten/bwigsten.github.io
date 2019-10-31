@@ -8,11 +8,13 @@ navbar:
     - text: "About Me"
       href: about.html
     - text: "Plots"
-      href: Plots.html
+      href: Dashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<bw2595@cumc.columbia.cedu>
     - icon: fa-github fa-lg
       href: https://github.com/bwigsten
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/blair-wigsten-937332111/
 output:
   html_document:
     theme: cerulean

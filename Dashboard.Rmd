@@ -1,0 +1,62 @@
+---
+title: "Plots"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+data(rest_inspec)
+rest_inspec
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+plot1 = rest_inspec %>%
+  drop_na(score) %>%
+  filter(boro %in% c("BRONX", "BROOKLYN", "MANHATTAN", "QUEENS", "STATEN ISLAND"),
+         score != "-1",
+         score != "-2") %>%
+  plot_ly(
+    y = ~score,
+    color = ~boro,
+    type = "box"
+  )
+
+plot1
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+distribution = rest_inspec %>%
+  select(boro, cuisine_description) %>%
+  filter(cuisine_description %in% c("Pizza", "Seafood", "Italian", "Chinese", "American")) %>%
+  count(cuisine_description) %>%
+  plot_ly(
+    x = ~cuisine_description,
+    y = ~n,
+    color = ~cuisine_description,
+    type = "bar"
+  )
+distribution
+```
+
+### Chart C
+
+```{r}
+
+```
+

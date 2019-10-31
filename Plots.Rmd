@@ -7,7 +7,7 @@ output:
     theme: cerulean
 ---
 
-```{r}
+```{r include = FALSE}
 library(tidyverse)
 library(p8105.datasets)
 library(flexdashboard)
@@ -16,11 +16,16 @@ data(rest_inspec)
 rest_inspec
 ```
 
-```{r}
+```{r }
 plot1 = rest_inspec %>%
   filter(cuisine_description == "Italian") %>%
-  select(-action, -camis)
-plot1
+  select(-action, -camis) %>%
+  count(boro) %>%
+  plot_ly(
+    x = c("BRONX", "BROOKLYN", "MANHATTAN", "QUEENS", "STATEN ISLAND"), 
+    y = ~n
+  )
+  plot1
 ```
 
 
