@@ -11,18 +11,18 @@ output:
 
 ![](images/Blair.png)
 
-My professional information is listed in [here](about.html). 
+My professional information is listed [here](about.html). 
 
 # Fun Facts
-1.) I'm a dog walker here in the city. That's how I can handle not having a dog of my own!
+1.) I'm a dog walker in NYC. That's how I can handle not having a dog of my own!
 
 2.) I worked as a zookeeper a few summers ago and loved it, but felt like I could make more of an impact with a career in public health.
 
-3.) My favorite food is a good plate of pasta (penne a la vodka is the best!).
+3.) My favorite food is sushi.
 
-4.) My favorite Netflix binge show is Frasier, and I've seen the entire show through multiple times. 
+4.) My favorite show is the Office. 
 
-5.) I ran cross country and track in both high school and college, but didn't keep it up after college ended. 
+5.) I ran cross country and track in both high school and college! 
 
 
 

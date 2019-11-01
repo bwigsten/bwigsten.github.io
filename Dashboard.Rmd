@@ -18,7 +18,7 @@ rest_inspec
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Chart A: Distribution of restaurant scores by borough
 
 ```{r}
 plot1 = rest_inspec %>%
@@ -41,7 +41,7 @@ Here, we are looking at the distribution of scores, stratified by borough. We se
 
 -----------------------------------------------------------------------
 
-### Chart B
+### Chart B: Numbers of Critical/Not Critical flags stratified by my 5 favorite types of food
 
 ```{r}
 distribution = rest_inspec %>%
@@ -63,7 +63,7 @@ distribution
 
 This bar graph looks at my 5 favorite types of food; American, Chinese, Italian, Pizza, and Seafood. This graph shows the numbers of critical and not critical flags on each type of food. To obtain this graph, I excluded critical flag values of "Not Applicable" in order to clearly see the difference in numbers of critical and not critical citations.  
 
-### Chart C
+### Chart C: Distribution of scores across all boroughs
 
 ```{r}
 critical = rest_inspec %>%
@@ -74,6 +74,5 @@ critical = rest_inspec %>%
     type = "histogram")
 critical
 ```
-
 This histogram is pretty basic; we are looking at the distribution of scores across all boroughs. The score with the highest number of observations is 12, with 39,368 individual observations. This would give those restaurants a grade of A. The lowest score was 0, which would also yield a grade of A. The highest score was 151, which would give a score of F. 
 
