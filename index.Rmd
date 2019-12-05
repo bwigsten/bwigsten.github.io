@@ -9,6 +9,8 @@ output:
 
 # Welcome! 
 
+### To view a really interesting project I worked on this semester for a Data Science class, visit this [link](https://bwigsten.github.io/homelessness.analysis.github.io/index.html) on homelessness across the US!
+
 ![](images/Blair.png)
 
 My professional information is listed [here](about.html). 
@@ -23,6 +25,8 @@ My professional information is listed [here](about.html).
 4.) My favorite show is the Office. 
 
 5.) I ran cross country and track in both high school and college! 
+
+
 
 
 
